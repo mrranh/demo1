@@ -4105,7 +4105,11 @@ article .duan-tong .entry-title {
 	  display: none;
 	}
   }
-
+ @media screen and (max-width: 600px) {
+	.textdd{
+        	font-size: 20px;
+	}
+  }
 
 /***********************************/
 /*Remove thay logo* Remove Title & Description **/
@@ -4229,4 +4233,16 @@ color: #000 !important;
 }
 #custom_html-8 .column1 p {
     font-size: 30px;
+}
+.wppsac-post-image-bg {
+    overflow: hidden;
+}
+
+.wppsac-post-image-bg:hover img {
+    transform: scale(1.2);
+}
+
+.wppsac-post-image-bg img  {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
 }
