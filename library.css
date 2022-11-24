@@ -2562,7 +2562,7 @@ p.entry-meta {
 	}
 	.gb-container-content .wppsac-post-carousel.design-1 .slick-arrow {
 		top: -44px !important;
-		right: 42px !important;
+		/*right: 42px !important;*/
 	}
 }
 
@@ -2609,6 +2609,19 @@ p.entry-meta {
     letter-spacing: .03rem;
 	border-radius: 8px 8px 0 0;
 }
+@media screen and (max-width: 600px) {
+	.headerbox2 h2 {
+		font-size: 19px !important;
+	}
+	.headerbox h2 {
+		font-size: 20px !important;
+	}
+  }
+  @media screen and (max-width: 600px) {
+	.about-us-content-home .about-us-img {
+	    margin-bottom: 63px;
+	}
+  }
 
 
   #introshop .boxcontainer {
@@ -4251,3 +4264,20 @@ color: #000 !important;
         	font-size: 20px;
 	}
   }
+  @media screen and (max-width: 600px) {
+	.loinoidau h4{
+		letter-spacing: -1.7px;
+	}
+  }
+  @media screen and (min-width: 600px) {
+	.dvchothuelopxe  #Rich_Web_VS_HPS88{
+		display: none !important;
+	}
+  }
+/*[lang="en"] {
+ display: none !important;
+}
+
+[lang="vi"] {
+  display: none !important;
+}*/
